@@ -147,3 +147,152 @@ main {
   color: #6b6585;
   line-height: 1.5;
 }
+
+/* Workout Builder Page */
+
+/* Page title */
+.pageTitle {
+  font-size: 32px;
+  color: #db6724;
+
+  margin-bottom: 15px;
+}
+
+/* Message under the title */
+.message {
+  color: #6b6585;
+
+  min-height: 24px;
+  margin-bottom: 15px;
+}
+
+/* Holds the two boxes side by side */
+.builder {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Catalog box and workout box */
+.builderBox {
+  flex: 1;
+  min-width: 300px;
+
+  padding: 20px;
+
+  background-color: #f7f5ff;
+
+  border: 1px solid #e3dcf5;
+  border-radius: 10px;
+}
+
+/* Box titles */
+.builderBox h2 {
+  font-size: 18px;
+  color: #db6724;
+
+  margin-bottom: 10px;
+}
+
+/* Search box and muscle filter */
+.filters {
+  display: flex;
+  gap: 10px;
+
+  margin-bottom: 10px;
+}
+
+/* All the text boxes and dropdowns */
+.builderBox input,
+.builderBox select {
+  width: 100%;
+
+  padding: 10px;
+
+  border: 1px solid #e3dcf5;
+  border-radius: 5px;
+
+  font-size: 14px;
+}
+
+/* Scrolling list of exercises */
+#catalogList,
+#routineList {
+  max-height: 320px;
+  overflow-y: auto;
+
+  margin: 10px 0 15px 0;
+}
+
+/* One exercise row */
+.exerciseItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+  padding: 10px;
+
+  background-color: white;
+
+  border: 1px solid #e3dcf5;
+  border-radius: 5px;
+
+  margin-bottom: 8px;
+}
+
+/* Exercise name */
+.exerciseName {
+  font-weight: bold;
+}
+
+/* Muscle, machine, grip */
+.exerciseDetails {
+  font-size: 13px;
+  color: #6b6585;
+}
+
+/* Add and Remove buttons */
+.smallBtn {
+  padding: 6px 12px;
+
+  background-color: #ffcc33;
+  color: #1e1b2e;
+  font-weight: bold;
+
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+/* Small button hover */
+.smallBtn:hover {
+  background-color: #e6b800;
+}
+
+/* Remove button */
+.removeBtn {
+  background-color: #e3dcf5;
+}
+
+/* Custom exercise title */
+.customTitle {
+  margin-top: 25px;
+}
+
+/* Custom exercise form */
+.customForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Buttons that are not links */
+button.button {
+  border: none;
+
+  font-size: 16px;
+
+  cursor: pointer;
+}
