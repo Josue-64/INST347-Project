@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Community</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="home.html" class="logo">Workout <span>Tracker</span></a>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="workout_builder.html">Build Workout</a>
+      <a href="workout_active.html">Log</a>
+      <a href="history.html">History</a>
+      <a href="community.html">Community</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <h1 class="pageTitle">Community</h1>
+
+    <p id="message" class="message"></p>
+
+    <!-- Share a workout -->
+    <section class="postBox">
+      <h2>Share a Workout</h2>
+
+      <input type="text" id="postTitle" placeholder="Workout name (ex: Leg Day)">
+      <input type="text" id="postExercises" placeholder="Exercises, separated by commas">
+      <input type="text" id="postNote" placeholder="Anything to add? (optional)">
+
+      <button id="postBtn" class="button">Share</button>
+    </section>
+
+    <!-- Search -->
+    <input type="text" id="communitySearch" class="searchBar" placeholder="Search workouts or people...">
+
+    <!-- Posts show up here -->
+    <div id="feed"></div>
+
+  </main>
+
+  <script src="community.js"></script>
+
+</body>
+</html>
