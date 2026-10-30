@@ -626,3 +626,77 @@ button.button {
   font-size: 13px;
   color: #6b6585;
 }
+
+/* Log Workout Page */
+
+/* One exercise in the workout being logged */
+.logRow {
+  padding: 10px;
+
+  background-color: white;
+
+  border: 1px solid #e3dcf5;
+  border-radius: 5px;
+
+  margin-bottom: 8px;
+}
+
+/* Weight, sets, and reps boxes side by side */
+.logInputs {
+  display: flex;
+  gap: 10px;
+
+  margin-top: 8px;
+}
+
+/* One box with its label */
+.logField {
+  flex: 1;
+}
+
+/* Label above a box */
+.logField span {
+  display: block;
+
+  font-size: 12px;
+  color: #6b6585;
+
+  margin-bottom: 4px;
+}
+
+/* Scrolling list of workouts and exercise boxes */
+#logList,
+#pastList {
+  max-height: 520px;
+  overflow-y: auto;
+
+  margin: 10px 0 15px 0;
+}
+
+/* One past workout */
+.pastWorkout {
+  padding: 12px;
+
+  background-color: white;
+
+  border: 1px solid #e3dcf5;
+  border-radius: 5px;
+
+  margin-bottom: 10px;
+}
+
+/* Workout name and date */
+.pastHeader {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 8px;
+}
+
+/* One exercise in a past workout */
+.pastLine {
+  font-size: 14px;
+  line-height: 1.4;
+
+  margin-bottom: 6px;
+}
