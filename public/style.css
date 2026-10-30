@@ -606,3 +606,23 @@ button.button {
 
   border-radius: 10px;
 }
+
+/* Login Page */
+
+/* Sign in box in the middle of the page */
+.loginBox {
+  max-width: 400px;
+
+  margin: 40px auto;
+}
+
+/* Sign in button on the login page */
+.loginBtn {
+  text-align: center;
+}
+
+/* Demo note under the sign in button */
+.loginHint {
+  font-size: 13px;
+  color: #6b6585;
+}
